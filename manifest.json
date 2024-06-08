@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "GetOut Ad!",
+  "version": "1.0",
+  "description": "Jump ads to save your time!",
+  "permissions": ["storage", "activeTab", "scripting", "webNavigation"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
